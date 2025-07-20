@@ -105,24 +105,26 @@ The dashboard includes visualizations for:
 ## Project Structure
 
 ```
-WHO_Nutrition_Dashboard/
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
-├── README.md             # Project documentation
-├── config.py             # Configuration settings
-├── data/                 # Data files and datasets
-│   ├── raw/              # Raw WHO data files
-│   └── processed/        # Cleaned and processed data
-├── static/               # Static files (CSS, JS, images)
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── templates/            # HTML templates
-├── utils/                # Utility functions
-│   ├── data_loader.py    # Data loading functions
-│   ├── visualizations.py # Chart generation
-│   └── helpers.py        # Helper functions
-└── tests/                # Unit tests
+who-nutrition-dashboard/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── main.py
+├── data_loader.py
+├── database.py
+├── visualizations.py
+├── pages/
+│   ├── Global_Trends.py
+│   ├── Data_Overview.py
+│   ├── Regional_Analysis.py
+│   ├── Demographic_Patterns.py
+│   ├── Country_Comparison.py
+│   ├── Custom_Queries.py
+│   ├── Data_Quality.py
+│   └── Insights_Recommendations.py
+└── assets/
+    ├── style.css
+    └── who_logo.png
 
 ```
 
